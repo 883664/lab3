@@ -85,6 +85,7 @@ function ProductList() {
             <ul>
                 {displayProducts.map((product) => (
                     <li key={product.id}>
+                        <strong>{product.name}</strong>
                         <strong>{product.category}</strong> {" - "}
                         <strong>{product.price}</strong> {" - "}
                         <Link to={`/products/${product.id}`}>View Detail</Link>
@@ -92,7 +93,7 @@ function ProductList() {
                 ))}
             </ul>
         </div>
-        
+
     )
 }
 

@@ -17,6 +17,7 @@ function ProductDetail() {
         <div>
             <h1>Product Detail</h1>
             <p>ID: {id}</p>
+            <p>Tên sản phẩm: {product.name}</p>
             <p>Danh mục: {product.category}</p>
             <p>Giá: {product.price}</p>
             <p>Mô tả: {product.description}</p>
